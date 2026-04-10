@@ -30,28 +30,34 @@ Implemented real-time scanning using Server-Sent Events (SSE) to stream live pro
   - Secure Login & Signup system
   - Password hashing using Werkzeug
   - Session-based authentication
+    
 -> Malware Detection Engine
   - SHA-256 hash-based signature detection
   - Heuristic analysis for suspicious file types (.exe, .dll, .bat, .scr)
   - Custom signature database stored in SQLite
+    
 -> File & Folder Scanning
   - Scan entire directories (server-side path)
   - Upload and scan individual files
   - Real-time scan progress updates
+    
 -> Real-Time Scan Streaming (SSE)
   - Uses Server-Sent Events (SSE) for:
   - Live scan logs
   - Progress tracking
   - Instant threat notifications
+    
 -> Quarantine Management
   - Automatically isolates detected threats
   - Options to:
   - Restore files
   - Permanently delete files
+    
 -> Dashboard Analytics
   - Last scan timestamp
   - Daily threat count
   - Total quarantined files
+    
 -> Advanced UI/UX
   - Cyberpunk hacker-style UI with:
   - Animated grid background
@@ -59,17 +65,21 @@ Implemented real-time scanning using Server-Sent Events (SSE) to stream live pro
   - Neon effects
   - Radar-style scanning animation
   - Smooth page transitions
+    
 -> Smart Notifications System
   - Popup alerts with emoji indicators:
 ✅ Safe
 ⚠️ Warning
 💀 Critical
+
 -> Sound alerts using Web Audio API
+
 -> Custom Themes
   - Purple Hacker Theme
   - Windows Defender Green Theme
   - Gold Royal Theme
   - User must select theme manually (no default)
+    
 -> User Settings
   - Theme customization
   - Scan reminder interval
@@ -80,10 +90,13 @@ Implemented real-time scanning using Server-Sent Events (SSE) to stream live pro
 
 ✔ Web-Based Antivirus System
 Runs entirely in a browser using Flask, unlike traditional desktop antivirus software.
+
 ✔ Real-Time Streaming Scan (SSE)
 Provides live scan progress, logs, and notifications without page reloads.
+
 ✔ Advanced Interactive UI/UX System
 Cyber-themed interface with animated visuals, radar scan loader, dynamic themes, and integrated sound + emoji-based threat feedback.
+
 ✔ Single-File Full Stack Architecture
 Backend and frontend integrated into a single Python file for simplicity and portability.
 
@@ -98,27 +111,37 @@ Backend and frontend integrated into a single Python file for simplicity and por
 # FUTURE IMPROVEMENT
 - AI/ML-based Threat Detection
 Integrate machine learning models for advanced malware classification
+
 - Cloud-Based Signature Updates
 Fetch and update malware signatures dynamically from cloud sources
+
 - Real-Time Background Protection
 Enable continuous system monitoring instead of manual scanning
+
 - Malicious Website Detection & Blocking
 Detect and restrict access to harmful or phishing websites with real-time warning alerts
+
 - URL Filtering & Web Protection
 Implement blacklist/whitelist system to block unsafe domains and enhance safe browsing
+
 - Browser Warning System
 Show alerts when users try to access suspicious or infected websites
+
 - Advanced File Recovery System
 Restore quarantined files to original locations securely
+
 - Role-Based Access Control (RBAC)
 Add admin/user roles for better system management
+
 - Detailed Threat Analytics Dashboard
 Visualize scan history, threat trends, and system health
+
 - Cross-Platform Deployment
 Deploy as a desktop app or cloud-hosted service
 
 # SCREENSHOT
 This section showcases the user interface and core functionalities of the CyberSecure Antivirus system, including authentication, real-time scanning, and quarantine management.
+
 -> Features Covered in Screenshots
   - Login & Signup (Cyber-themed UI)
   - Dashboard with scan statistics
