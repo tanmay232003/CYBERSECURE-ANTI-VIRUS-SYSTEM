@@ -150,8 +150,14 @@ This section showcases the user interface and core functionalities of the CyberS
   - Quarantine management system
   - Settings & theme customization
 All screenshots are stored in the following LINK : (1. https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013213.png
+
 2.https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013241.png
-3.       )
+
+3.https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013337.png
+
+4.
+
+       )
 
 # CONCLUSION
 -> This project showcases a practical implementation of antivirus fundamentals combined with modern web technologies. It is ideal for:
