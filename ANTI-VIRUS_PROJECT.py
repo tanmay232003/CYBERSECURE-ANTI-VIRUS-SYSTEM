@@ -1,18 +1,5 @@
 #!/usr/bin/env python3
-"""
-Antivirus - single-file Flask app (SSE-only popup + glass effect + emoji + sound + light/dark theme)
-Now with:
- - Cyber neon login / signup (dark cyan hacker theme)
- - Animated hacker grid background (login, signup, dashboard, scan, quarantine, settings)
- - Radar-style SCANNING loader shown only while scan is running
 
-Custom themes:
- - Purple Hacker
- - Windows Defender Green
- - Gold Royal
-No default theme pre-selected; user must choose in Settings.
-
-"""
 
 import os
 import sqlite3
