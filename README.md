@@ -149,15 +149,22 @@ This section showcases the user interface and core functionalities of the CyberS
   - File upload scanner
   - Quarantine management system
   - Settings & theme customization
-All screenshots are stored in the following LINK : (1. https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013213.png
+All screenshots are stored in the following LINK :
+(
+1. https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013213.png
 
 2.https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013241.png
 
 3.https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013337.png
 
-4.
-
-       )
+4. https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013354.png
+   
+5. https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013408.png
+ 
+6. https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013420.png
+ 
+7. https://github.com/tanmay232003/CYBERSECURE-ANTI-VIRUS-SYSTEM/blob/main/Screenshot%202025-11-21%20013451.png
+)
 
 # CONCLUSION
 -> This project showcases a practical implementation of antivirus fundamentals combined with modern web technologies. It is ideal for:
