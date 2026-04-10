@@ -12,11 +12,13 @@ Implemented real-time scanning using Server-Sent Events (SSE) to stream live pro
   - SQLite (Lightweight Database)
   - Hashlib (SHA-256 File Hashing)
   - Werkzeug (Secure Authentication & Password Hashing)
+    
 -> Frontend
   - HTML5, CSS3
   - Vanilla JavaScript
   - Server-Sent Events (Real-Time Updates)
   - Web Audio API (Alert Sounds)
+    
 -> Database Schema
   - users → stores user credentials and preferences
   - user_activity → tracks scan history and threat statistics
