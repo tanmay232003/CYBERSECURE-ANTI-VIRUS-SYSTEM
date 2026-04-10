@@ -115,7 +115,7 @@ Visualize scan history, threat trends, and system health
 - Cross-Platform Deployment
 Deploy as a desktop app or cloud-hosted service
 
-#SCREENSHOT
+# SCREENSHOT
 This section showcases the user interface and core functionalities of the CyberSecure Antivirus system, including authentication, real-time scanning, and quarantine management.
 -> Features Covered in Screenshots
   - Login & Signup (Cyber-themed UI)
