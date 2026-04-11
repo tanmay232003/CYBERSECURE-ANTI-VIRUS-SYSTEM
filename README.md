@@ -1,6 +1,8 @@
 # CYBERSECURE-ANTI-VIRUS-SYSTEM
 Built a modern light weight web-based antivirus system using Python (Flask) with SHA-256 hashing, signature-based and heuristic detection. Features real-time scanning via SSE, file upload scanner, quarantine management, and dashboard analytics. Includes modern cyber-themed UI/UX. Demonstrates full-stack development and cybersecurity fundamentals.
 
+LIVE { https://cybersecure-anti-virus-system-1.onrender.com }
+
 # DESCRIPTION OF PROJECT
 Developed a web-based antivirus system using Python (Flask) that simulates core cybersecurity mechanisms including signature-based detection, heuristic analysis, and secure quarantine management.The system leverages SHA-256 hashing for file integrity checks and compares hashes against a stored signature database to identify known threats. Additionally, a heuristic detection module flags potentially malicious files based on suspicious extensions, mimicking real-world antivirus behavior.
 Implemented real-time scanning using Server-Sent Events (SSE) to stream live progress updates, logs, and threat notifications to the frontend without page reloads. The application also includes a file upload scanning module, enabling users to scan individual files dynamically through the browser.
