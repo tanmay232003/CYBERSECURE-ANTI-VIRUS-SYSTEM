@@ -1152,15 +1152,16 @@ def get_meta(user_id):
     }
 
 @app.route('/')
-if 'user_id' not in session:
-    return redirect(url_for('login'))
+def index():
+    if 'user_id' not in session:
+        return redirect(url_for('login'))
 
-user = get_user_by_id(session['user_id'])
+    user = get_user_by_id(session['user_id'])
 
-if not user:
-    return redirect(url_for('login'))
+    if not user:
+        return redirect(url_for('login'))
 
-meta = get_meta(user['id'])
+    meta = get_meta(user['id'])
     c.execute('SELECT COUNT(*) as cnt FROM quarantine WHERE user_id = ?', (user['id'],))
     qcount = c.fetchone()['cnt']
     return render_template_string(
