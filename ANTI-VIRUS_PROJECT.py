@@ -1162,6 +1162,9 @@ def index():
         return redirect(url_for('login'))
 
     meta = get_meta(user['id'])
+    db = get_db()
+    c = db.cursor()
+    
     c.execute('SELECT COUNT(*) as cnt FROM quarantine WHERE user_id = ?', (user['id'],))
     qcount = c.fetchone()['cnt']
     return render_template_string(
