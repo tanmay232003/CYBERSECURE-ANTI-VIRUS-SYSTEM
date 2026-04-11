@@ -789,7 +789,7 @@ APP_TEMPLATE = '''
       <div id="scanNormalUI">
         <div class="card">
           <label>Folder path to scan (absolute, server machine):</label>
-          <input type="text" id="folderPath" placeholder="E.g. C:\\\\Users\\\\Tanmay\\\\Desktop" />
+          <input type="text" id="folderPath" placeholder="Enter server path or upload file" />
           <div style="margin:0.5rem 0">
             <button id="startScanBtn">Start Scan</button>
           </div>
